@@ -1,6 +1,6 @@
 import React from "react";
-import { PokemonData } from "../usePokemon";
-import { useFavourites } from "../Favourites/FavouritesContext";
+import { PokemonData } from "../Data/usePokemon";
+import { useFavourites } from "../Pages/Favourites/FavouritesContext";
 
 interface PokemonCardProps {
   pokemonData: PokemonData;

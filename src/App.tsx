@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { FavouritesProvider } from "./Favourites/FavouritesContext";
-import Favourites from "./Favourites/Favourites";
-import Compare from "./Compare/Compare";
-import GameHL from "./Game/GameHL";
+import { FavouritesProvider } from "./Pages/Favourites/FavouritesContext";
+import Favourites from "./Pages/Favourites/Favourites";
+import Compare from "./Pages/Compare/Compare";
+import GameHL from "./Pages/Game/Game";
 import { NavBar } from "./Components/NavBar";
-import Pokemon from "./Pokedex/Pokemon";
+import Pokemon from "./Pages/Pokedex/Pokemon";
 
 const App: React.FC = () => {
   return (
